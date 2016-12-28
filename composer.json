@@ -21,7 +21,11 @@
         "cweagans/composer-patches": "~1.0",
         "drupal/core": "~8.0",
         "drush/drush": "~8.0",
-        "drupal/console": "~1.0"
+        "drupal/console": "~1.0",
+        "drupal/waterwheel": "2.x-dev",
+        "drupal/jsonapi": "^1.0@alpha",
+        "drupal/simple_oauth": "^1.0@beta",
+        "drupal/restui": "^1.13"
     },
     "require-dev": {
         "behat/mink": "~1.7",
