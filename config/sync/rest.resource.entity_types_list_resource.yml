@@ -1,0 +1,19 @@
+uuid: a6b563d6-03bb-40db-a715-3d604a74f84a
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - user
+    - waterwheel
+_core:
+  default_config_hash: 485s1WG9tK013K-DpmnNSlgsQW6DDBe5HcyeWbx6MbI
+id: entity_types_list_resource
+plugin_id: entity_types_list_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie

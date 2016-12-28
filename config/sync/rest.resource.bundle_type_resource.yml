@@ -1,0 +1,19 @@
+uuid: ac709006-259c-489f-bca3-0f182b0286e7
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - user
+    - waterwheel
+_core:
+  default_config_hash: qiD7b9hTx9bZ5CgPiicxA1ocyEni85AtQsYRSvlJxj4
+id: bundle_type_resource
+plugin_id: bundle_type_resource
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
