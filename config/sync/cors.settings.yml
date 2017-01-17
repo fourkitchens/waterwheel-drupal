@@ -1,4 +1,4 @@
 domains:
-  '*': 'http://localhost:3000|POST,GET,PATCH,DELETE|Content-Type,Authorization|true'
+  '*': 'http://localhost:3000|POST,GET,PATCH,DELETE|Content-Type,Authorization|true https://infiniteluke.github.io|POST,GET,PATCH,DELETE|Content-Type,Authorization|true'
 _core:
   default_config_hash: nCJuMn5x07t9O5N-iSHrh4M1-cEN43AOdMu32YtvYbc
