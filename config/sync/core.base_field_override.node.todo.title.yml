@@ -1,0 +1,18 @@
+uuid: cada1e78-8954-4c43-8276-ce74be4eb054
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.todo
+id: node.todo.title
+field_name: title
+entity_type: node
+bundle: todo
+label: Text
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

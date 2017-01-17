@@ -1,0 +1,12 @@
+uuid: 8d8e9fce-cd5d-479f-b48a-e2b7910f1a88
+langcode: en
+status: true
+dependencies: {  }
+id: react_waterwheel_user
+label: 'React + Waterwheel User'
+weight: 3
+is_admin: null
+permissions:
+  - 'create todo content'
+  - 'delete own todo content'
+  - 'edit own todo content'

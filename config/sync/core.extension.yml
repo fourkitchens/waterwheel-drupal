@@ -9,6 +9,7 @@ module:
   config: 0
   contact: 0
   contextual: 0
+  cors: 0
   datetime: 0
   dblog: 0
   dynamic_page_cache: 0
@@ -42,7 +43,6 @@ module:
   tour: 0
   user: 0
   views_ui: 0
-  update: 0
   waterwheel: 0
   menu_link_content: 1
   views: 10

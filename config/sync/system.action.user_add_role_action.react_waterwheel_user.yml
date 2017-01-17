@@ -1,0 +1,14 @@
+uuid: 143b6d33-716e-4505-9653-a470f33e82ed
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.react_waterwheel_user
+  module:
+    - user
+id: user_add_role_action.react_waterwheel_user
+label: 'Add the React + Waterwheel User role to the selected users'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: react_waterwheel_user

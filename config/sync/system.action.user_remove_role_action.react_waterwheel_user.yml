@@ -1,0 +1,14 @@
+uuid: 6dffd582-fda0-45fd-bf5f-2ef55e87ca68
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.react_waterwheel_user
+  module:
+    - user
+id: user_remove_role_action.react_waterwheel_user
+label: 'Remove the React + Waterwheel User role from the selected users'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: react_waterwheel_user

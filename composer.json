@@ -23,9 +23,10 @@
         "drush/drush": "~8.0",
         "drupal/console": "~1.0",
         "drupal/waterwheel": "2.x-dev",
-        "drupal/jsonapi": "^1.0@alpha",
-        "drupal/simple_oauth": "^1.0@beta",
-        "drupal/restui": "^1.13"
+        "drupal/jsonapi": "1.x-dev",
+        "drupal/simple_oauth": "^2.0@alpha",
+        "drupal/restui": "^1.13",
+        "drupal/cors": "^1.0"
     },
     "require-dev": {
         "behat/mink": "~1.7",
@@ -79,6 +80,9 @@
         "patches": {
             "drupal/core": {
                 "Redirect to install.php on empty DB": "https://www.drupal.org/files/issues/728702-163.patch"
+            },
+            "drupal/cors": {
+                "Multivalue responses not being returned. Added Origin matching": "https://www.drupal.org/files/issues/2780297-multivalue-headers-13.patch"
             }
         }
     },
