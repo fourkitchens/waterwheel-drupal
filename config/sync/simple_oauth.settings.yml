@@ -1,5 +1,5 @@
-expiration: 300
+expiration: 15
 _core:
   default_config_hash: RViccNnarW8cWYl6LGhaqdWxqCg0rNzyT3I6MtGB9ug
-public_key: /app/private/credentials/public.key
-private_key: /app/private/credentials/private.key
+public_key: /var/www/waterwheel4k/private/certificates/public.key
+private_key: /var/www/waterwheel4k/private/certificates/private.key
