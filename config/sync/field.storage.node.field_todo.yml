@@ -1,0 +1,19 @@
+uuid: a52c839f-5c1d-4d41-a31c-0db1bb647735
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_todo
+field_name: field_todo
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

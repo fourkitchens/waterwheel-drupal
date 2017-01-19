@@ -1,0 +1,24 @@
+uuid: d33bbea9-c20c-48d0-bc36-187f063fb2a2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.likes.field_todo
+    - node.type.likes
+  module:
+    - user
+id: node.likes.default
+targetEntityType: node
+bundle: likes
+mode: default
+content:
+  field_todo:
+    weight: 102
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+  links:
+    weight: 100
+hidden: {  }

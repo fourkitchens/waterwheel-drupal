@@ -10,3 +10,5 @@ permissions:
   - 'create todo content'
   - 'delete own todo content'
   - 'edit own todo content'
+  - 'create likes content'
+  - 'delete own likes content'

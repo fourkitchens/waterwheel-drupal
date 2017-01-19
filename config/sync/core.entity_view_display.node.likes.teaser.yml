@@ -1,0 +1,19 @@
+uuid: a1ca037e-08c9-4415-bb0d-90874b5644c8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.likes.field_todo
+    - node.type.likes
+  module:
+    - user
+id: node.likes.teaser
+targetEntityType: node
+bundle: likes
+mode: teaser
+content:
+  links:
+    weight: 100
+hidden:
+  field_todo: true
