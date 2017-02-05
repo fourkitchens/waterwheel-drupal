@@ -12,3 +12,5 @@ permissions:
   - 'edit own todo content'
   - 'create likes content'
   - 'delete own likes content'
+  - 'grant simple_oauth codes'
+  - 'access user profiles'
