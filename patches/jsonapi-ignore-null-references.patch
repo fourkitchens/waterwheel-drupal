@@ -1,0 +1,23 @@
+diff --git a/src/Normalizer/EntityReferenceFieldNormalizer.php b/src/Normalizer/EntityReferenceFieldNormalizer.php
+index baab98c..d7a4fee 100644
+--- a/src/Normalizer/EntityReferenceFieldNormalizer.php
++++ b/src/Normalizer/EntityReferenceFieldNormalizer.php
+@@ -85,12 +85,18 @@ class EntityReferenceFieldNormalizer extends FieldNormalizer implements Denormal
+     $cardinality = $definition
+       ->getFieldStorageDefinition()
+       ->getCardinality();
++
+     $entity_collection = new EntityCollection(array_map(function ($item) {
+       // Get the referenced entity.
++      /* @var \Drupal\Core\Entity\EntityInterface $entity */
+       $entity = $item->get('entity')->getValue();
++      if ($entity === null) {
++        return;
++      }
+       // And get the translation in the requested language.
+       return $this->entityRepository->getTranslationFromContext($entity);
+     }, (array) $field->getIterator()));
++
+     $relationship = new Relationship($this->resourceTypeRepository, $field->getName(), $cardinality, $entity_collection, $field->getEntity(), $main_property);
+     return $this->serializer->normalize($relationship, $format, $context);
+   }
