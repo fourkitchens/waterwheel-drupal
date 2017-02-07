@@ -82,7 +82,8 @@
                 "Redirect to install.php on empty DB": "https://www.drupal.org/files/issues/728702-163.patch"
             },
             "drupal/cors": {
-                "Multivalue responses not being returned. Added Origin matching": "https://www.drupal.org/files/issues/2780297-multivalue-headers-13.patch"
+                "Multivalue responses not being returned. Added Origin matching": "https://www.drupal.org/files/issues/2780297-multivalue-headers-13.patch",
+                "Multiple path settings not saving correctly": "https://www.drupal.org/files/issues/cors_multiple_path_settings-0.patch"
             }
         }
     },
